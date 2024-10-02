@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1.8">
+<title>Buattt pacarku tercintaa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+<h1>Dedee Harus Klik Tombol Merah Buat Melihat Sesuatu</h1>
+<button id="revealButton">Disinii</button>
+<div id="heartContainer" class="hidden">
+<div class="heart"></div>
+<p>mass sangat sangat sayang dedee!!!!!!</p>
+</div>
+</div>
+</body>
+<script>
+document.getElementById('revealButton').addEventListener("click", function() { document.getElementById("heartContainer").classList.remove("hidden");
+});
+</script>
+</html>
